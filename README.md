@@ -31,6 +31,7 @@ MANIFEST.json
 Large ranked CSV files are not copied in full. Instead, reduced samples are generated and stored under:
 
 kkt_anomaly_outputs/sampled_results_csv/
+```
 Notes
 
 This repository is intended to preserve the authors' experimental logic and compact result evidence without redistributing public datasets, third-party repositories, or large generated artifacts.
