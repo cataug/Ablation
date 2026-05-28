@@ -1,0 +1,6 @@
+﻿folder,exists,files,size_mb,path
+logs,True,115,0.23,C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\logs
+results_json,True,108,0.25,C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\results_json
+results_csv,True,210,43516.57,C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\results_csv
+summary,True,17,139.05,C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\summary
+cache,True,2,4288.21,C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\cache

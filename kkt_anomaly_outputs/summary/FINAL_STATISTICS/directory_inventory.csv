@@ -1,0 +1,4 @@
+﻿folder,exists,n_files,size_mb,path
+results_json,True,108,0.294,C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\results_json
+results_csv,True,258,45000.513,C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\results_csv
+summary,True,17,139.151,C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\summary

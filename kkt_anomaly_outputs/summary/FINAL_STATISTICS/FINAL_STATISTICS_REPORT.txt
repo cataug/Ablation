@@ -1,0 +1,157 @@
+FINAL KKT ANOMALY PIPELINE STATISTICS
+========================================================================================================================
+
+Created: 2026-05-18 08:05:07
+OUT_ROOT: C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs
+
+Completion
+------------------------------------------------------------------------------------------------------------------------
+Expected experiments: 108
+OK experiments: 108
+Missing / non-OK: 0
+Verdict: ALL COMPLETE
+
+Directory inventory
+------------------------------------------------------------------------------------------------------------------------
+      folder  exists  n_files   size_mb                                                                        path
+results_json    True      108     0.294 C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\results_json
+ results_csv    True      258 45000.513  C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\results_csv
+     summary    True       17   139.151      C:\Users\ivan\WORK\workshops\ICDM\Ablation\kkt_anomaly_outputs\summary
+
+Run summary by group
+------------------------------------------------------------------------------------------------------------------------
+  expected_stage       dataset             group  n_runs  min_contamination  max_contamination  n_features  n_rows  n_devices  total_runtime_sec  mean_runtime_sec  ranked_csv_all_exist  top_csv_all_exist  device_csv_any_exist
+   agg_kkt_level agg_kkt_47_11       all_numeric       3               0.01               0.05         150   34443        NaN          60.364671         20.121557                  True               True                 False
+   agg_kkt_level agg_kkt_47_11           benford       3               0.01               0.05           1   34443        NaN          36.506388         12.168796                  True               True                 False
+   agg_kkt_level agg_kkt_47_11             bills       3               0.01               0.05          11   34443        NaN          78.244431         26.081477                  True               True                 False
+   agg_kkt_level agg_kkt_47_11        cross_corr       3               0.01               0.05          14   34443        NaN          82.934292         27.644764                  True               True                 False
+   agg_kkt_level agg_kkt_47_11       items_price       3               0.01               0.05           8   34443        NaN          81.642843         27.214281                  True               True                 False
+   agg_kkt_level agg_kkt_47_11      non_temporal       3               0.01               0.05         150   34443        NaN          52.079000         17.359667                  True               True                 False
+   agg_kkt_level agg_kkt_47_11       payment_mix       3               0.01               0.05          22   34443        NaN          51.775001         17.258334                  True               True                 False
+   agg_kkt_level agg_kkt_47_11  shape_complexity       3               0.01               0.05          36   34443        NaN         133.963154         44.654385                  True               True                 False
+   agg_kkt_level agg_kkt_47_11       simple_core       3               0.01               0.05         138   34443        NaN          50.938017         16.979339                  True               True                 False
+   agg_kkt_level agg_kkt_47_11          temporal       3               0.01               0.05          38   34443        NaN          64.779868         21.593289                  True               True                 False
+   agg_kkt_level agg_kkt_47_11          turnover       3               0.01               0.05         107   34443        NaN          56.093002         18.697667                  True               True                 False
+   agg_kkt_level agg_kkt_47_19       all_numeric       3               0.01               0.05         150   15491        NaN          23.610008          7.870003                  True               True                 False
+   agg_kkt_level agg_kkt_47_19           benford       3               0.01               0.05           1   15491        NaN          20.785121          6.928374                  True               True                 False
+   agg_kkt_level agg_kkt_47_19             bills       3               0.01               0.05          11   15491        NaN          34.694003         11.564668                  True               True                 False
+   agg_kkt_level agg_kkt_47_19        cross_corr       3               0.01               0.05          14   15491        NaN          42.049133         14.016378                  True               True                 False
+   agg_kkt_level agg_kkt_47_19       items_price       3               0.01               0.05           8   15491        NaN          43.281999         14.427333                  True               True                 False
+   agg_kkt_level agg_kkt_47_19      non_temporal       3               0.01               0.05         150   15491        NaN          21.292000          7.097333                  True               True                 False
+   agg_kkt_level agg_kkt_47_19       payment_mix       3               0.01               0.05          22   15491        NaN          26.155001          8.718334                  True               True                 False
+   agg_kkt_level agg_kkt_47_19  shape_complexity       3               0.01               0.05          36   15491        NaN          81.297056         27.099019                  True               True                 False
+   agg_kkt_level agg_kkt_47_19       simple_core       3               0.01               0.05         138   15491        NaN          21.202020          7.067340                  True               True                 False
+   agg_kkt_level agg_kkt_47_19          temporal       3               0.01               0.05          38   15491        NaN          42.466841         14.155614                  True               True                 False
+   agg_kkt_level agg_kkt_47_19          turnover       3               0.01               0.05         107   15491        NaN          20.900994          6.966998                  True               True                 False
+ts_kkt_day_level  ts_kkt_47_11       all_numeric       3               0.01               0.05          87 3168756    34443.0        1586.639392        528.879797                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_11       bills_items       3               0.01               0.05          29 3168756    34443.0         927.326997        309.108999                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_11        core_daily       3               0.01               0.05          18 3168756    34443.0         882.083153        294.027718                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_11       payment_mix       3               0.01               0.05          20 3168756    34443.0         911.380002        303.793334                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_11    peer_deviation       3               0.01               0.05           6 3168756    34443.0         856.981003        285.660334                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_11 rolling_deviation       3               0.01               0.05          48 3168756    34443.0        1050.139034        350.046345                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_11          turnover       3               0.01               0.05          42 3168756    34443.0        1016.596004        338.865335                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_19       all_numeric       3               0.01               0.05          87 1425172    15491.0         511.499999        170.500000                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_19       bills_items       3               0.01               0.05          29 1425172    15491.0         412.225999        137.408666                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_19        core_daily       3               0.01               0.05          18 1425172    15491.0         380.456974        126.818991                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_19       payment_mix       3               0.01               0.05          20 1425172    15491.0         408.038005        136.012668                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_19    peer_deviation       3               0.01               0.05           6 1425172    15491.0         379.131015        126.377005                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_19 rolling_deviation       3               0.01               0.05          48 1425172    15491.0         417.826002        139.275334                  True               True                  True
+ts_kkt_day_level  ts_kkt_47_19          turnover       3               0.01               0.05          42 1425172    15491.0         427.724998        142.574999                  True               True                  True
+
+Runtime summary
+------------------------------------------------------------------------------------------------------------------------
+  expected_stage       dataset  n_runs  total_runtime_sec  mean_runtime_sec  median_runtime_sec  max_runtime_sec  total_runtime_min  total_runtime_hours
+   agg_kkt_level agg_kkt_47_11      33         749.320668         22.706687           20.266856        48.556598          12.488678             0.208145
+   agg_kkt_level agg_kkt_47_19      33         377.734176         11.446490            9.373003        28.626587           6.295570             0.104926
+ts_kkt_day_level  ts_kkt_47_11      21        7231.145584        344.340266          308.879002       634.321544         120.519093             2.008652
+ts_kkt_day_level  ts_kkt_47_19      21        2936.902991        139.852523          137.079000       173.678001          48.948383             0.815806
+
+Final ranking statistics
+------------------------------------------------------------------------------------------------------------------------
+                             table  exists  n_rows  n_unique_kkt               score_col  score_min  score_median  score_mean  score_max  score_p95  score_p99
+FINAL_COMBINED_KKT_ANOMALY_RANKING    True   49934         49934 final_kkt_anomaly_score        0.0      0.212936    0.212093        1.0   0.429878   0.999931
+     final_agg_kkt_anomaly_ranking    True    1248          1248 final_kkt_anomaly_score        0.0      0.802632    0.808092        1.0   0.968226   1.000000
+  final_ts_kkt_day_anomaly_ranking    True    6791          1828 final_day_anomaly_score        0.0      0.000000    0.028567        1.0   0.000000   1.000000
+   final_ts_device_anomaly_ranking    True   49934         49934          ts_final_score        0.0      0.413131    0.389205        1.0   0.815413   0.999997
+
+Compact final statistics
+------------------------------------------------------------------------------------------------------------------------
+                           item     value                                                  note
+           Expected experiments   108.000                         66 aggregate + 42 time-series
+                 OK experiments   108.000                                          status == ok
+     Missing/non-OK experiments     0.000                     should be 0 for a clean final run
+           Total runtime, hours     3.138                 sum of individual experiment runtimes
+Combined KKT anomaly candidates 49934.000        rows in FINAL_COMBINED_KKT_ANOMALY_RANKING.csv
+ Unique KKT in combined ranking 49934.000                      unique cash-register identifiers
+     KKT-day anomaly candidates  6791.000          rows in final_ts_kkt_day_anomaly_ranking.csv
+Unique KKT in day-level ranking  1828.000 cash registers with at least one ranked anomalous day
+     TS device-level candidates 49934.000           rows in final_ts_device_anomaly_ranking.csv
+
+Top combined KKT anomalies
+------------------------------------------------------------------------------------------------------------------------
+ final_rank                           kkt_id  final_kkt_anomaly_score  best_score  mean_score  ts_final_score  ts_total_anomaly_days
+          1 800065ec054bba34d4ef073e09e77af8                      1.0         1.0    1.000000        1.000000                   1264
+          2 69ca5dcd89e9ef68ec5142a3529fabaf                      1.0         1.0    1.000000        1.000000                    779
+          3 99399be9dc9b613d22e98abd058f1b0a                      1.0         1.0    1.000000        1.000000                   1145
+          4 4eeb3e43020e0bc7b8f9041b143ce9a3                      1.0         1.0    1.000000        0.947564                    802
+          5 c55bd5d73bee168680fe8cfa36ea7bd1                      1.0         1.0    1.000000        1.000000                    776
+          6 1359596eeb694f953a6d74bac874ec72                      1.0         1.0    1.000000        0.999617                   1329
+          7 5eabba71423bee80759211c9788e5aec                      1.0         1.0    1.000000        1.000000                   1346
+          8 232c261b388bed48a4204d536a80ccbf                      1.0         1.0    1.000000        0.995232                   1018
+          9 4ed69874d5a7d37cbcc6aaf280a9bbf1                      1.0         1.0    1.000000        1.000000                   1434
+         10 4efa9d40658eecf67c89fdf0323c755b                      1.0         1.0    1.000000        1.000000                    764
+         11 050325f979665d30eecf86d46bc06ef1                      1.0         1.0    1.000000        1.000000                   1247
+         12 c514a329aa86df774d008ef9bdbb224f                      1.0         1.0    1.000000        1.000000                    727
+         13 7abbbc289df6d7c025e5f8ba93edfd00                      1.0         1.0    1.000000        0.945805                    476
+         14 1c923e81f8f8dd7a8ae15297c4925618                      1.0         1.0    0.991501        0.950105                    533
+         15 866d09319a4d0a7c5541633a80dc9fd7                      1.0         1.0    1.000000        1.000000                    813
+         16 216f2800d94f69c219596f20854eb5f1                      1.0         1.0    1.000000        1.000000                   1216
+         17 b54394a0aecb86d27e7dd22a0c21c952                      1.0         1.0    1.000000        0.996038                    990
+         18 69b29c29c0d0c905a9f9191f0ad4c421                      1.0         1.0    1.000000        1.000000                    748
+         19 e3061e33074af2221c545e62c1594309                      1.0         1.0    1.000000        0.946298                    564
+         20 468a1c96cb58e6418598073f80d9c930                      1.0         1.0    1.000000        1.000000                   1387
+         21 c67d058f9b46b0b8cdeab5d9aa3bb7c3                      1.0         1.0    1.000000        0.985928                    617
+         22 37bf6e02802f9dfbe0ab60214cef4c32                      1.0         1.0    1.000000        1.000000                    885
+         23 c655896a52d9aa7f4e276bea7879dd77                      1.0         1.0    1.000000        1.000000                   1632
+         24 4f7df632f957dbda813d5e32b9d06ce3                      1.0         1.0    0.998490        0.979614                    594
+         25 98a491dea03bca2c5f108599afe4e10f                      1.0         1.0    1.000000        0.999991                   1285
+         26 4f48b24479155c8da18e74b1d1a8feb7                      1.0         1.0    1.000000        0.987068                    681
+         27 5f04f025919537eed8342c0c3036e7ae                      1.0         1.0    1.000000        1.000000                   1348
+         28 4f2f3afd3345efcd75679cdd89caf38d                      1.0         1.0    1.000000        0.948956                    487
+         29 697cea5d7612d395eef6b980cfab9251                      1.0         1.0    1.000000        1.000000                   1149
+         30 698774214e407820de54fb928ca8611b                      1.0         1.0    1.000000        1.000000                    968
+
+Top KKT-day anomalies
+------------------------------------------------------------------------------------------------------------------------
+ final_day_rank                           kkt_id       date  final_day_anomaly_score  total_sum  n_bills  ecash_fraction
+              1 a32f067711de2e6a4eab509c3590f090 2023-12-31                      1.0 1287178.40    413.0        0.840588
+              2 dc978bcbb6686f0e70c173d2367e131a 2023-12-26                      1.0   94620.00      1.0        0.000000
+              3 dc978bcbb6686f0e70c173d2367e131a 2023-12-18                      1.0  101982.00      2.0        0.000000
+              4 dc978bcbb6686f0e70c173d2367e131a 2023-12-19                      1.0   92560.00      1.0        0.000000
+              5 45b5abf828e4410557284e89ab1223b8 2023-12-28                      1.0   94470.00      4.0        1.000000
+              6 dc978bcbb6686f0e70c173d2367e131a 2023-12-20                      1.0  210055.00      3.0        0.000000
+              7 45d06c5a6c5dcf992c963f852a099cf0 2023-11-10                      1.0    2952.00      8.0        0.926152
+              8 dc978bcbb6686f0e70c173d2367e131a 2023-12-22                      1.0  191560.00      2.0        0.000000
+              9 45d3a561ece2a6c6bbfa2712c2ebbf7b 2023-10-31                      1.0  914605.00      1.0        0.000000
+             10 45d3a561ece2a6c6bbfa2712c2ebbf7b 2023-11-09                      1.0  400000.00      1.0        0.000000
+             11 dc978bcbb6686f0e70c173d2367e131a 2023-12-23                      1.0  190905.00      2.0        0.000000
+             12 45d3a561ece2a6c6bbfa2712c2ebbf7b 2023-11-24                      1.0  507018.00      1.0        0.000000
+             13 45d3a561ece2a6c6bbfa2712c2ebbf7b 2023-12-18                      1.0 2121528.50      3.0        0.000000
+             14 dc978bcbb6686f0e70c173d2367e131a 2023-12-24                      1.0  192010.00      2.0        0.000000
+             15 dc978bcbb6686f0e70c173d2367e131a 2023-12-25                      1.0  731597.30     11.0        0.000000
+             16 45e5aa18457c4ff667a7f7d9b8f36220 2023-11-15                      1.0    3950.00      1.0        1.000000
+             17 45a3ab369ac1c47f08a70f5273766ed4 2023-12-11                      1.0  108000.00      1.0        1.000000
+             18 dc978bcbb6686f0e70c173d2367e131a 2023-12-27                      1.0   93950.00      1.0        0.000000
+             19 45ee27f146c174804341e168e18ef967 2023-12-12                      1.0   79821.02    188.0        1.000000
+             20 45f2004405f95a06a785e2d66d660cc1 2023-10-02                      1.0   91950.00      1.0        0.000000
+             21 45f2004405f95a06a785e2d66d660cc1 2023-10-09                      1.0   96180.00      1.0        0.000000
+             22 dc978bcbb6686f0e70c173d2367e131a 2023-12-29                      1.0   94580.00      1.0        0.000000
+             23 37d4d42485881617c0dc3656639655a8 2023-12-18                      1.0   32050.00      5.0        0.000000
+             24 45f2004405f95a06a785e2d66d660cc1 2023-11-28                      1.0   96800.00      1.0        0.000000
+             25 45f2004405f95a06a785e2d66d660cc1 2023-12-04                      1.0   71890.00      1.0        0.000000
+             26 45f2004405f95a06a785e2d66d660cc1 2023-12-11                      1.0   92930.00      1.0        0.000000
+             27 45f2004405f95a06a785e2d66d660cc1 2023-12-18                      1.0   97890.00      1.0        0.000000
+             28 45f2004405f95a06a785e2d66d660cc1 2023-12-25                      1.0   89900.00      1.0        0.000000
+             29 4600682352df159759df67e4c7e658e0 2023-10-13                      1.0    6728.30      6.0        0.259482
+             30 4600682352df159759df67e4c7e658e0 2023-10-27                      1.0  155095.60     68.0        0.876096
+

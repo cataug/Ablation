@@ -1,0 +1,5 @@
+﻿table,exists,n_rows,n_unique_kkt,score_col,score_min,score_median,score_mean,score_max,score_p95,score_p99
+FINAL_COMBINED_KKT_ANOMALY_RANKING,True,49934,49934,final_kkt_anomaly_score,0.0,0.21293623724377758,0.21209327843213235,1.0,0.4298779591570648,0.9999305675199989
+final_agg_kkt_anomaly_ranking,True,1248,1248,final_kkt_anomaly_score,0.0,0.8026315789473684,0.8080924254859552,1.0,0.9682263019579456,1.0
+final_ts_kkt_day_anomaly_ranking,True,6791,1828,final_day_anomaly_score,0.0,0.0,0.02856722132233839,1.0,0.0,1.0
+final_ts_device_anomaly_ranking,True,49934,49934,ts_final_score,0.0,0.4131306954901056,0.38920540542141474,1.0,0.8154131361823231,0.9999971102769403

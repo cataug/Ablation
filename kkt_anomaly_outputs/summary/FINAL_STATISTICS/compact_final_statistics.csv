@@ -1,0 +1,10 @@
+﻿item,value,note
+Expected experiments,108.0,66 aggregate + 42 time-series
+OK experiments,108.0,status == ok
+Missing/non-OK experiments,0.0,should be 0 for a clean final run
+"Total runtime, hours",3.138,sum of individual experiment runtimes
+Combined KKT anomaly candidates,49934.0,rows in FINAL_COMBINED_KKT_ANOMALY_RANKING.csv
+Unique KKT in combined ranking,49934.0,unique cash-register identifiers
+KKT-day anomaly candidates,6791.0,rows in final_ts_kkt_day_anomaly_ranking.csv
+Unique KKT in day-level ranking,1828.0,cash registers with at least one ranked anomalous day
+TS device-level candidates,49934.0,rows in final_ts_device_anomaly_ranking.csv
