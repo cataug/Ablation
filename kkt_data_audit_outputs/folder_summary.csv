@@ -1,0 +1,4 @@
+﻿parent,n_files,total_mb,max_mb
+dataloader_time_series,4,1854.366,1024.72
+db_output,2,1063.732,742.099
+dataloader_aggregated,4,116.95599999999999,78.621
