@@ -1,0 +1,1680 @@
+{
+  "project": "Graph-Anomaly-Ablation",
+  "created_at": "2026-05-28T14:12:32",
+  "source_root": "C:\\Users\\ivan\\WORK\\workshops\\ICDM\\Ablation",
+  "destination_root": "C:\\Users\\ivan\\WORK\\workshops\\ICDM\\Ablation-github",
+  "max_files": 180,
+  "max_file_mb": 45,
+  "csv_sample_rows": 5000,
+  "max_sampled_csvs": 25,
+  "copied_source_files": 145,
+  "sampled_csv_files": 25,
+  "generated_files": 6,
+  "actual_file_count_expected": 176,
+  "included_files": [
+    {
+      "path": "Datasets.ipynb",
+      "size_bytes": 141528,
+      "size_human": "138.21 KB",
+      "priority": 1,
+      "reason": "author notebook",
+      "mode": "copy"
+    },
+    {
+      "path": "Experiments1.ipynb",
+      "size_bytes": 438079,
+      "size_human": "427.81 KB",
+      "priority": 1,
+      "reason": "author notebook",
+      "mode": "copy"
+    },
+    {
+      "path": "Experiments2.ipynb",
+      "size_bytes": 1681137,
+      "size_human": "1.60 MB",
+      "priority": 1,
+      "reason": "author notebook",
+      "mode": "copy"
+    },
+    {
+      "path": "Experiments3.ipynb",
+      "size_bytes": 1128601,
+      "size_human": "1.08 MB",
+      "priority": 1,
+      "reason": "author notebook",
+      "mode": "copy"
+    },
+    {
+      "path": "KKT.ipynb",
+      "size_bytes": 266514,
+      "size_human": "260.27 KB",
+      "priority": 1,
+      "reason": "author notebook",
+      "mode": "copy"
+    },
+    {
+      "path": "Untitled.ipynb",
+      "size_bytes": 1027818,
+      "size_human": "1003.73 KB",
+      "priority": 1,
+      "reason": "author notebook",
+      "mode": "copy"
+    },
+    {
+      "path": "Untitled1.ipynb",
+      "size_bytes": 157175,
+      "size_human": "153.49 KB",
+      "priority": 1,
+      "reason": "author notebook",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\summary\\ablation_gap_table.csv",
+      "size_bytes": 645,
+      "size_human": "645.00 B",
+      "priority": 10,
+      "reason": "author ablation summary output",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\summary\\method_results_report.txt",
+      "size_bytes": 7440,
+      "size_human": "7.27 KB",
+      "priority": 10,
+      "reason": "author ablation summary output",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\summary\\results_summary.csv",
+      "size_bytes": 42915,
+      "size_human": "41.91 KB",
+      "priority": 10,
+      "reason": "author ablation summary output",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\summary\\shortcut_sensitivity_summary.csv",
+      "size_bytes": 1017,
+      "size_human": "1017.00 B",
+      "priority": 10,
+      "reason": "author ablation summary output",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\summary\\best_by_regime_roc_auc.csv",
+      "size_bytes": 100349,
+      "size_human": "98.00 KB",
+      "priority": 15,
+      "reason": "author robustness summary output",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\summary\\robustness_results_summary.csv",
+      "size_bytes": 252560,
+      "size_human": "246.64 KB",
+      "priority": 15,
+      "reason": "author robustness summary output",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\ablation_feature_group_run_summary.csv",
+      "size_bytes": 50578,
+      "size_human": "49.39 KB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\all_kkt_anomaly_runs_summary.csv",
+      "size_bytes": 55246,
+      "size_human": "53.95 KB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\all_top_agg_kkt_anomalies_raw.csv",
+      "size_bytes": 26608505,
+      "size_human": "25.38 MB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\all_top_ts_kkt_day_anomalies_raw.csv",
+      "size_bytes": 20876863,
+      "size_human": "19.91 MB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\final_agg_kkt_anomaly_ranking.csv",
+      "size_bytes": 2079685,
+      "size_human": "1.98 MB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_COMBINED_KKT_ANOMALY_RANKING.csv",
+      "size_bytes": 45590420,
+      "size_human": "43.48 MB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\final_ts_device_anomaly_ranking.csv",
+      "size_bytes": 41725983,
+      "size_human": "39.79 MB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\final_ts_kkt_day_anomaly_ranking.csv",
+      "size_bytes": 8446048,
+      "size_human": "8.05 MB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\selected_files_audit.csv",
+      "size_bytes": 12937,
+      "size_human": "12.63 KB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\topk_overlap_with_all_numeric.csv",
+      "size_bytes": 18646,
+      "size_human": "18.21 KB",
+      "priority": 20,
+      "reason": "author KKT summary CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\KKT_ANOMALY_DETECTION_REPORT.txt",
+      "size_bytes": 201257,
+      "size_human": "196.54 KB",
+      "priority": 21,
+      "reason": "author KKT summary text",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\compact_final_statistics.csv",
+      "size_bytes": 662,
+      "size_human": "662.00 B",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\contamination_level_stats.csv",
+      "size_bytes": 1141,
+      "size_human": "1.11 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\csv_inventory.csv",
+      "size_bytes": 218503,
+      "size_human": "213.38 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\csv_kind_summary.csv",
+      "size_bytes": 225,
+      "size_human": "225.00 B",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\directory_inventory.csv",
+      "size_bytes": 347,
+      "size_human": "347.00 B",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\expected_vs_actual_experiments.csv",
+      "size_bytes": 53211,
+      "size_human": "51.96 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\feature_group_run_stats.csv",
+      "size_bytes": 4117,
+      "size_human": "4.02 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\final_ranking_statistics.csv",
+      "size_bytes": 676,
+      "size_human": "676.00 B",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\FINAL_STATISTICS_REPORT.txt",
+      "size_bytes": 20871,
+      "size_human": "20.38 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\json_inventory.csv",
+      "size_bytes": 68209,
+      "size_human": "66.61 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\overlap_summary.csv",
+      "size_bytes": 7626,
+      "size_human": "7.45 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\run_summary_by_group.csv",
+      "size_bytes": 4503,
+      "size_human": "4.40 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\runtime_summary.csv",
+      "size_bytes": 720,
+      "size_human": "720.00 B",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\summary_files_inventory.csv",
+      "size_bytes": 5603,
+      "size_human": "5.47 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\top200_combined_kkt_anomalies.csv",
+      "size_bytes": 230874,
+      "size_human": "225.46 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\top500_kkt_day_anomalies.csv",
+      "size_bytes": 428264,
+      "size_human": "418.23 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\FINAL_STATISTICS\\top500_ts_device_anomalies.csv",
+      "size_bytes": 37806,
+      "size_human": "36.92 KB",
+      "priority": 23,
+      "reason": "author KKT final statistics",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\PIPELINE_COMPLETION_AUDIT\\cache_inventory.csv",
+      "size_bytes": 314,
+      "size_human": "314.00 B",
+      "priority": 24,
+      "reason": "author KKT pipeline audit",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\PIPELINE_COMPLETION_AUDIT\\csv_inventory.csv",
+      "size_bytes": 139922,
+      "size_human": "136.64 KB",
+      "priority": 24,
+      "reason": "author KKT pipeline audit",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\PIPELINE_COMPLETION_AUDIT\\directory_summary.csv",
+      "size_bytes": 521,
+      "size_human": "521.00 B",
+      "priority": 24,
+      "reason": "author KKT pipeline audit",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\PIPELINE_COMPLETION_AUDIT\\expected_vs_actual_experiments.csv",
+      "size_bytes": 42193,
+      "size_human": "41.20 KB",
+      "priority": 24,
+      "reason": "author KKT pipeline audit",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\PIPELINE_COMPLETION_AUDIT\\json_inventory.csv",
+      "size_bytes": 56639,
+      "size_human": "55.31 KB",
+      "priority": 24,
+      "reason": "author KKT pipeline audit",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\PIPELINE_COMPLETION_AUDIT\\summary_files_check.csv",
+      "size_bytes": 4919,
+      "size_human": "4.80 KB",
+      "priority": 24,
+      "reason": "author KKT pipeline audit",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\figures\\kkt_timeseries_normal_vs_anomalous.pdf",
+      "size_bytes": 29794,
+      "size_human": "29.10 KB",
+      "priority": 25,
+      "reason": "author KKT figure PDF",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\figures\\kkt_timeseries_normal_vs_anomalous_normalized.pdf",
+      "size_bytes": 30549,
+      "size_human": "29.83 KB",
+      "priority": 25,
+      "reason": "author KKT figure PDF",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\figures\\kkt_timeseries_normal_vs_anomalous.png",
+      "size_bytes": 918226,
+      "size_human": "896.71 KB",
+      "priority": 26,
+      "reason": "author KKT figure PNG",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\summary\\figures\\kkt_timeseries_normal_vs_anomalous_normalized.png",
+      "size_bytes": 901640,
+      "size_human": "880.51 KB",
+      "priority": 26,
+      "reason": "author KKT figure PNG",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\kkt_file_audit_report.txt",
+      "size_bytes": 22082,
+      "size_human": "21.56 KB",
+      "priority": 31,
+      "reason": "author data audit TXT",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\extension_summary.csv",
+      "size_bytes": 71,
+      "size_human": "71.00 B",
+      "priority": 32,
+      "reason": "author data audit CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\folder_summary.csv",
+      "size_bytes": 159,
+      "size_human": "159.00 B",
+      "priority": 32,
+      "reason": "author data audit CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\kkt_candidate_files_classified.csv",
+      "size_bytes": 20107,
+      "size_human": "19.64 KB",
+      "priority": 32,
+      "reason": "author data audit CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\kkt_candidate_files_to_use.csv",
+      "size_bytes": 19896,
+      "size_human": "19.43 KB",
+      "priority": 32,
+      "reason": "author data audit CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\kkt_files_inventory.csv",
+      "size_bytes": 3371,
+      "size_human": "3.29 KB",
+      "priority": 32,
+      "reason": "author data audit CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\kkt_files_samples_inventory.csv",
+      "size_bytes": 19648,
+      "size_human": "19.19 KB",
+      "priority": 32,
+      "reason": "author data audit CSV",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\dataloader_aggregated_agg_kkt_okved_47.11_region_77_impute_True.csv__sample.csv",
+      "size_bytes": 27285,
+      "size_human": "26.65 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\dataloader_aggregated_agg_kkt_okved_47.19_region_77_impute_True.csv__sample.csv",
+      "size_bytes": 29242,
+      "size_human": "28.56 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\dataloader_aggregated_agg_store_okved_47.11_region_77_impute_True.csv__sample.csv",
+      "size_bytes": 2527,
+      "size_human": "2.47 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\dataloader_aggregated_agg_store_okved_47.19_region_77_impute_True.csv__sample.csv",
+      "size_bytes": 2390,
+      "size_human": "2.33 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\dataloader_time_series_ts_kkt_id_okved_47.11_region_77_impute_True.csv__sample.csv",
+      "size_bytes": 2740,
+      "size_human": "2.68 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\dataloader_time_series_ts_kkt_id_okved_47.19_region_77_impute_True.csv__sample.csv",
+      "size_bytes": 4030,
+      "size_human": "3.94 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\dataloader_time_series_ts_stores_okved_47.11_region_77_impute_True.csv__sample.csv",
+      "size_bytes": 2587,
+      "size_human": "2.53 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\dataloader_time_series_ts_stores_okved_47.19_region_77_impute_True.csv__sample.csv",
+      "size_bytes": 2068,
+      "size_human": "2.02 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\db_output_okved_47.11_region_77_2023_month_10-12_code_3_operation_1_v1.csv__sample.csv",
+      "size_bytes": 3425,
+      "size_human": "3.34 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_data_audit_outputs\\samples\\db_output_okved_47.19_region_77_2023_month_10-12_code_3_operation_1_from_db.csv__sample.csv",
+      "size_bytes": 3686,
+      "size_human": "3.60 KB",
+      "priority": 33,
+      "reason": "author lightweight audit sample",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__full__ExtraTrees.json",
+      "size_bytes": 1695,
+      "size_human": "1.66 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__full__GradientBoosting.json",
+      "size_bytes": 1641,
+      "size_human": "1.60 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__full__IsolationForest.json",
+      "size_bytes": 1774,
+      "size_human": "1.73 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__full__LogisticRegression.json",
+      "size_bytes": 1704,
+      "size_human": "1.66 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__full__RandomForest.json",
+      "size_bytes": 1637,
+      "size_human": "1.60 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__full__ExtraTrees.json",
+      "size_bytes": 1699,
+      "size_human": "1.66 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__full__GradientBoosting.json",
+      "size_bytes": 1705,
+      "size_human": "1.67 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__full__IsolationForest.json",
+      "size_bytes": 1778,
+      "size_human": "1.74 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__full__LogisticRegression.json",
+      "size_bytes": 1708,
+      "size_human": "1.67 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__full__RandomForest.json",
+      "size_bytes": 1700,
+      "size_human": "1.66 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudAmazon__full__ExtraTrees.json",
+      "size_bytes": 2006,
+      "size_human": "1.96 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudAmazon__full__GradientBoosting.json",
+      "size_bytes": 2003,
+      "size_human": "1.96 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudAmazon__full__IsolationForest.json",
+      "size_bytes": 2060,
+      "size_human": "2.01 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudAmazon__full__LogisticRegression.json",
+      "size_bytes": 2046,
+      "size_human": "2.00 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudAmazon__full__RandomForest.json",
+      "size_bytes": 2026,
+      "size_human": "1.98 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudYelp__full__ExtraTrees.json",
+      "size_bytes": 2139,
+      "size_human": "2.09 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudYelp__full__GradientBoosting.json",
+      "size_bytes": 2162,
+      "size_human": "2.11 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudYelp__full__IsolationForest.json",
+      "size_bytes": 2193,
+      "size_human": "2.14 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudYelp__full__LogisticRegression.json",
+      "size_bytes": 2168,
+      "size_human": "2.12 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\FraudYelp__full__RandomForest.json",
+      "size_bytes": 2157,
+      "size_human": "2.11 KB",
+      "priority": 40,
+      "reason": "selected author full-setting JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__attr_only__ExtraTrees.json",
+      "size_bytes": 1241,
+      "size_human": "1.21 KB",
+      "priority": 41,
+      "reason": "selected author attr-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__attr_only__GradientBoosting.json",
+      "size_bytes": 1248,
+      "size_human": "1.22 KB",
+      "priority": 41,
+      "reason": "selected author attr-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__attr_only__IsolationForest.json",
+      "size_bytes": 1290,
+      "size_human": "1.26 KB",
+      "priority": 41,
+      "reason": "selected author attr-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__attr_only__LogisticRegression.json",
+      "size_bytes": 1249,
+      "size_human": "1.22 KB",
+      "priority": 41,
+      "reason": "selected author attr-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__attr_only__RandomForest.json",
+      "size_bytes": 1242,
+      "size_human": "1.21 KB",
+      "priority": 41,
+      "reason": "selected author attr-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__attr_only__ExtraTrees.json",
+      "size_bytes": 1241,
+      "size_human": "1.21 KB",
+      "priority": 41,
+      "reason": "selected author attr-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__attr_only__GradientBoosting.json",
+      "size_bytes": 1248,
+      "size_human": "1.22 KB",
+      "priority": 41,
+      "reason": "selected author attr-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__attr_only__IsolationForest.json",
+      "size_bytes": 1291,
+      "size_human": "1.26 KB",
+      "priority": 41,
+      "reason": "selected author attr-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__struct_only__ExtraTrees.json",
+      "size_bytes": 1701,
+      "size_human": "1.66 KB",
+      "priority": 42,
+      "reason": "selected author struct-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__struct_only__GradientBoosting.json",
+      "size_bytes": 1648,
+      "size_human": "1.61 KB",
+      "priority": 42,
+      "reason": "selected author struct-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__struct_only__IsolationForest.json",
+      "size_bytes": 1774,
+      "size_human": "1.73 KB",
+      "priority": 42,
+      "reason": "selected author struct-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__struct_only__LogisticRegression.json",
+      "size_bytes": 1711,
+      "size_human": "1.67 KB",
+      "priority": 42,
+      "reason": "selected author struct-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_Alpha__struct_only__RandomForest.json",
+      "size_bytes": 1643,
+      "size_human": "1.60 KB",
+      "priority": 42,
+      "reason": "selected author struct-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__struct_only__ExtraTrees.json",
+      "size_bytes": 1706,
+      "size_human": "1.67 KB",
+      "priority": 42,
+      "reason": "selected author struct-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__struct_only__GradientBoosting.json",
+      "size_bytes": 1712,
+      "size_human": "1.67 KB",
+      "priority": 42,
+      "reason": "selected author struct-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\results_json\\Bitcoin_OTC__struct_only__IsolationForest.json",
+      "size_bytes": 1785,
+      "size_human": "1.74 KB",
+      "priority": 42,
+      "reason": "selected author struct-only JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__attr_only__ExtraTrees.json",
+      "size_bytes": 1666,
+      "size_human": "1.63 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__attr_only__GradientBoosting.json",
+      "size_bytes": 1673,
+      "size_human": "1.63 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__attr_only__IsolationForest.json",
+      "size_bytes": 1732,
+      "size_human": "1.69 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__attr_only__LogisticRegression.json",
+      "size_bytes": 1688,
+      "size_human": "1.65 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__attr_only__RandomForest.json",
+      "size_bytes": 1669,
+      "size_human": "1.63 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__degree_only__ExtraTrees.json",
+      "size_bytes": 1520,
+      "size_human": "1.48 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__degree_only__GradientBoosting.json",
+      "size_bytes": 1509,
+      "size_human": "1.47 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__degree_only__IsolationForest.json",
+      "size_bytes": 1573,
+      "size_human": "1.54 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__degree_only__LogisticRegression.json",
+      "size_bytes": 1521,
+      "size_human": "1.49 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__degree_only__RandomForest.json",
+      "size_bytes": 1518,
+      "size_human": "1.48 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__full__ExtraTrees.json",
+      "size_bytes": 2218,
+      "size_human": "2.17 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__full__GradientBoosting.json",
+      "size_bytes": 2196,
+      "size_human": "2.14 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__full__IsolationForest.json",
+      "size_bytes": 2253,
+      "size_human": "2.20 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__full__LogisticRegression.json",
+      "size_bytes": 2239,
+      "size_human": "2.19 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\results_json\\FraudAmazon__original__full__RandomForest.json",
+      "size_bytes": 2220,
+      "size_human": "2.17 KB",
+      "priority": 43,
+      "reason": "selected author robustness original JSON result",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\logs\\MASTER_RUN_LOG.txt",
+      "size_bytes": 1140,
+      "size_human": "1.11 KB",
+      "priority": 50,
+      "reason": "author master ablation run log",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\logs\\dataset_load_Bitcoin_Alpha.txt",
+      "size_bytes": 237,
+      "size_human": "237.00 B",
+      "priority": 51,
+      "reason": "author dataset-load log",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\logs\\dataset_load_Bitcoin_OTC.txt",
+      "size_bytes": 231,
+      "size_human": "231.00 B",
+      "priority": 51,
+      "reason": "author dataset-load log",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\logs\\dataset_load_FraudAmazon.txt",
+      "size_bytes": 198,
+      "size_human": "198.00 B",
+      "priority": 51,
+      "reason": "author dataset-load log",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\logs\\dataset_load_FraudYelp.txt",
+      "size_bytes": 193,
+      "size_human": "193.00 B",
+      "priority": 51,
+      "reason": "author dataset-load log",
+      "mode": "copy"
+    },
+    {
+      "path": "ablation_trivial_baselines_outputs\\logs\\dataset_load_GADBench_Reddit.txt",
+      "size_bytes": 325,
+      "size_human": "325.00 B",
+      "priority": 51,
+      "reason": "author dataset-load log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\00_selected_files_audit.txt",
+      "size_bytes": 43620,
+      "size_human": "42.60 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\agg__agg_kkt_47_11_all_numeric_contam_0.01.txt",
+      "size_bytes": 2543,
+      "size_human": "2.48 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\agg__agg_kkt_47_11_all_numeric_contam_0.03.txt",
+      "size_bytes": 2544,
+      "size_human": "2.48 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\agg__agg_kkt_47_11_all_numeric_contam_0.05.txt",
+      "size_bytes": 2544,
+      "size_human": "2.48 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\agg__agg_kkt_47_11_benford_contam_0.01.txt",
+      "size_bytes": 2913,
+      "size_human": "2.84 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\agg__agg_kkt_47_11_benford_contam_0.03.txt",
+      "size_bytes": 2914,
+      "size_human": "2.85 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\agg__agg_kkt_47_11_benford_contam_0.05.txt",
+      "size_bytes": 2914,
+      "size_human": "2.85 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\agg__agg_kkt_47_11_bills_contam_0.01.txt",
+      "size_bytes": 2648,
+      "size_human": "2.59 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\agg__agg_kkt_47_11_bills_contam_0.03.txt",
+      "size_bytes": 1730,
+      "size_human": "1.69 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\logs\\agg__agg_kkt_47_11_bills_contam_0.05.txt",
+      "size_bytes": 1730,
+      "size_human": "1.69 KB",
+      "priority": 52,
+      "reason": "selected author KKT log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__attr_dropout_25.txt",
+      "size_bytes": 5606,
+      "size_human": "5.47 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__attr_dropout_50.txt",
+      "size_bytes": 5606,
+      "size_human": "5.47 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__attr_noise_10.txt",
+      "size_bytes": 5552,
+      "size_human": "5.42 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__attr_noise_25.txt",
+      "size_bytes": 5552,
+      "size_human": "5.42 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__attr_shuffle.txt",
+      "size_bytes": 5525,
+      "size_human": "5.40 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__degree_preserving_rewire.txt",
+      "size_bytes": 5849,
+      "size_human": "5.71 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__edges_removed.txt",
+      "size_bytes": 5545,
+      "size_human": "5.42 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__original.txt",
+      "size_bytes": 5417,
+      "size_human": "5.29 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__relation_dropout_25.txt",
+      "size_bytes": 5714,
+      "size_human": "5.58 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "robustness_attribute_structure_outputs\\logs\\feature_build_FraudAmazon__relation_dropout_50.txt",
+      "size_bytes": 5713,
+      "size_human": "5.58 KB",
+      "priority": 53,
+      "reason": "selected author robustness log",
+      "mode": "copy"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\ts_kkt_47_11__ts_features__sample_5000_rows.csv",
+      "size_bytes": 4962536,
+      "size_human": "4.73 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\cache\\ts_kkt_47_11__ts_features.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\ts_kkt_47_19__ts_features__sample_5000_rows.csv",
+      "size_bytes": 4927566,
+      "size_human": "4.70 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\cache\\ts_kkt_47_19__ts_features.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.01__ranked__sample_5000_rows.csv",
+      "size_bytes": 12235351,
+      "size_human": "11.67 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.01__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.01__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 1102458,
+      "size_human": "1.05 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.01__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.03__ranked__sample_5000_rows.csv",
+      "size_bytes": 12234662,
+      "size_human": "11.67 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.03__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.03__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 1622895,
+      "size_human": "1.55 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.03__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.05__ranked__sample_5000_rows.csv",
+      "size_bytes": 12234036,
+      "size_human": "11.67 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.05__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.05__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 1622908,
+      "size_human": "1.55 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.05__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.01__ranked__sample_5000_rows.csv",
+      "size_bytes": 12612361,
+      "size_human": "12.03 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.01__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.01__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 874603,
+      "size_human": "854.10 KB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.01__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.03__ranked__sample_5000_rows.csv",
+      "size_bytes": 12611671,
+      "size_human": "12.03 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.03__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.03__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 1275578,
+      "size_human": "1.22 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.03__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.05__ranked__sample_5000_rows.csv",
+      "size_bytes": 12610982,
+      "size_human": "12.03 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.05__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.05__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 1275578,
+      "size_human": "1.22 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.05__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.01__ranked__sample_5000_rows.csv",
+      "size_bytes": 12578690,
+      "size_human": "12.00 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.01__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.01__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 1153461,
+      "size_human": "1.10 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.01__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.03__ranked__sample_5000_rows.csv",
+      "size_bytes": 12578076,
+      "size_human": "12.00 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.03__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.03__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 1681452,
+      "size_human": "1.60 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.03__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.05__ranked__sample_5000_rows.csv",
+      "size_bytes": 12577345,
+      "size_human": "11.99 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.05__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.05__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 1681453,
+      "size_human": "1.60 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.05__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.01__ranked__sample_5000_rows.csv",
+      "size_bytes": 12182221,
+      "size_human": "11.62 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.01__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.01__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 939444,
+      "size_human": "917.43 KB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.01__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.03__ranked__sample_5000_rows.csv",
+      "size_bytes": 12181656,
+      "size_human": "11.62 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.03__ranked.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.03__top_anomalies__sample_5000_rows.csv",
+      "size_bytes": 1357526,
+      "size_human": "1.29 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.03__top_anomalies.csv",
+      "mode": "sample"
+    },
+    {
+      "path": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.05__ranked__sample_5000_rows.csv",
+      "size_bytes": 12181037,
+      "size_human": "11.62 MB",
+      "priority": 70,
+      "reason": "sampled oversized CSV from kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.05__ranked.csv",
+      "mode": "sample"
+    }
+  ],
+  "sampled_csv_reports": [
+    {
+      "source": "kkt_anomaly_outputs\\cache\\ts_kkt_47_11__ts_features.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\ts_kkt_47_11__ts_features__sample_5000_rows.csv",
+      "source_size_bytes": 3107451586,
+      "source_size_human": "2.89 GB",
+      "sample_size_bytes": 4962536,
+      "sample_size_human": "4.73 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\cache\\ts_kkt_47_19__ts_features.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\ts_kkt_47_19__ts_features__sample_5000_rows.csv",
+      "source_size_bytes": 1389058101,
+      "source_size_human": "1.29 GB",
+      "sample_size_bytes": 4927566,
+      "sample_size_human": "4.70 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.01__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.01__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87200789,
+      "source_size_human": "83.16 MB",
+      "sample_size_bytes": 12235351,
+      "sample_size_human": "11.67 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.01__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.01__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 1102458,
+      "source_size_human": "1.05 MB",
+      "sample_size_bytes": 1102458,
+      "sample_size_human": "1.05 MB",
+      "rows_seen_until_stop": 345,
+      "rows_written": 345,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.03__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.03__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87200100,
+      "source_size_human": "83.16 MB",
+      "sample_size_bytes": 12234662,
+      "sample_size_human": "11.67 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.03__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.03__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 1622895,
+      "source_size_human": "1.55 MB",
+      "sample_size_bytes": 1622895,
+      "sample_size_human": "1.55 MB",
+      "rows_seen_until_stop": 501,
+      "rows_written": 501,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.05__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.05__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87198927,
+      "source_size_human": "83.16 MB",
+      "sample_size_bytes": 12234036,
+      "sample_size_human": "11.67 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.05__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_all_numeric_contam_0.05__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 1622908,
+      "source_size_human": "1.55 MB",
+      "sample_size_bytes": 1622908,
+      "sample_size_human": "1.55 MB",
+      "rows_seen_until_stop": 501,
+      "rows_written": 501,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.01__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.01__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87787377,
+      "source_size_human": "83.72 MB",
+      "sample_size_bytes": 12612361,
+      "sample_size_human": "12.03 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.01__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.01__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 874603,
+      "source_size_human": "854.10 KB",
+      "sample_size_bytes": 874603,
+      "sample_size_human": "854.10 KB",
+      "rows_seen_until_stop": 345,
+      "rows_written": 345,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.03__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.03__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87786632,
+      "source_size_human": "83.72 MB",
+      "sample_size_bytes": 12611671,
+      "sample_size_human": "12.03 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.03__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.03__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 1275578,
+      "source_size_human": "1.22 MB",
+      "sample_size_bytes": 1275578,
+      "sample_size_human": "1.22 MB",
+      "rows_seen_until_stop": 501,
+      "rows_written": 501,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.05__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.05__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87785258,
+      "source_size_human": "83.72 MB",
+      "sample_size_bytes": 12610982,
+      "sample_size_human": "12.03 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_benford_contam_0.05__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_benford_contam_0.05__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 1275578,
+      "source_size_human": "1.22 MB",
+      "sample_size_bytes": 1275578,
+      "sample_size_human": "1.22 MB",
+      "rows_seen_until_stop": 501,
+      "rows_written": 501,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.01__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.01__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87849531,
+      "source_size_human": "83.78 MB",
+      "sample_size_bytes": 12578690,
+      "sample_size_human": "12.00 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.01__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.01__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 1153461,
+      "source_size_human": "1.10 MB",
+      "sample_size_bytes": 1153461,
+      "sample_size_human": "1.10 MB",
+      "rows_seen_until_stop": 345,
+      "rows_written": 345,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.03__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.03__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87848792,
+      "source_size_human": "83.78 MB",
+      "sample_size_bytes": 12578076,
+      "sample_size_human": "12.00 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.03__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.03__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 1681452,
+      "source_size_human": "1.60 MB",
+      "sample_size_bytes": 1681452,
+      "sample_size_human": "1.60 MB",
+      "rows_seen_until_stop": 501,
+      "rows_written": 501,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.05__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.05__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87848046,
+      "source_size_human": "83.78 MB",
+      "sample_size_bytes": 12577345,
+      "sample_size_human": "11.99 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_bills_contam_0.05__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_bills_contam_0.05__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 1681453,
+      "source_size_human": "1.60 MB",
+      "sample_size_bytes": 1681453,
+      "sample_size_human": "1.60 MB",
+      "rows_seen_until_stop": 501,
+      "rows_written": 501,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.01__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.01__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87831666,
+      "source_size_human": "83.76 MB",
+      "sample_size_bytes": 12182221,
+      "sample_size_human": "11.62 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.01__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.01__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 939444,
+      "source_size_human": "917.43 KB",
+      "sample_size_bytes": 939444,
+      "sample_size_human": "917.43 KB",
+      "rows_seen_until_stop": 345,
+      "rows_written": 345,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.03__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.03__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87831155,
+      "source_size_human": "83.76 MB",
+      "sample_size_bytes": 12181656,
+      "sample_size_human": "11.62 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.03__top_anomalies.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.03__top_anomalies__sample_5000_rows.csv",
+      "source_size_bytes": 1357526,
+      "source_size_human": "1.29 MB",
+      "sample_size_bytes": 1357526,
+      "sample_size_human": "1.29 MB",
+      "rows_seen_until_stop": 501,
+      "rows_written": 501,
+      "max_data_rows_requested": 5000,
+      "error": null
+    },
+    {
+      "source": "kkt_anomaly_outputs\\results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.05__ranked.csv",
+      "sample": "kkt_anomaly_outputs\\sampled_results_csv\\agg__agg_kkt_47_11_cross_corr_contam_0.05__ranked__sample_5000_rows.csv",
+      "source_size_bytes": 87830845,
+      "source_size_human": "83.76 MB",
+      "sample_size_bytes": 12181037,
+      "sample_size_human": "11.62 MB",
+      "rows_seen_until_stop": 5002,
+      "rows_written": 5001,
+      "max_data_rows_requested": 5000,
+      "error": null
+    }
+  ],
+  "skipped_by_limit_count": 0,
+  "skipped_by_limit_preview": []
+}
