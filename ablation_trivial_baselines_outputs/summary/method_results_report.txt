@@ -1,0 +1,84 @@
+Ablation-Driven Evaluation of Trivial Feature Baselines for Realistic Anomaly Detection
+====================================================================================================
+
+Datasets used:
+- Bitcoin_Alpha: kind=bitcoin_signed_graph_pseudo_labels, nodes=3783, anomalies=383
+  notes: Pseudo-labels from negative trust statistics; use as diagnostic stress-test, not real fraud ground truth.
+- Bitcoin_OTC: kind=bitcoin_signed_graph_pseudo_labels, nodes=5881, anomalies=591
+  notes: Pseudo-labels from negative trust statistics; use as diagnostic stress-test, not real fraud ground truth.
+- FraudYelp: kind=dgl_fraud_heterograph, nodes=45954, anomalies=6677
+  notes: Real labels from DGL fraud benchmark.
+- FraudAmazon: kind=dgl_fraud_heterograph, nodes=11944, anomalies=821
+  notes: Real labels from DGL fraud benchmark.
+
+Ablations:
+- attr_only
+- struct_only
+- full
+- degree_only
+- no_degree_struct
+
+Models:
+- LogisticRegression
+- RandomForest
+- ExtraTrees
+- GradientBoosting
+- IsolationForest
+
+Best results by dataset using ROC-AUC:
+----------------------------------------------------------------------------------------------------
+
+Dataset: Bitcoin_Alpha
+  struct_only          | RandomForest         | ROC-AUC=1.0 | PR-AUC=1.0 | P@K=1.0 | R@K=1.0
+  full                 | RandomForest         | ROC-AUC=1.0 | PR-AUC=1.0 | P@K=1.0 | R@K=1.0
+  struct_only          | GradientBoosting     | ROC-AUC=1.0 | PR-AUC=1.0 | P@K=1.0 | R@K=1.0
+  no_degree_struct     | RandomForest         | ROC-AUC=1.0 | PR-AUC=1.0 | P@K=1.0 | R@K=1.0
+  no_degree_struct     | GradientBoosting     | ROC-AUC=1.0 | PR-AUC=1.0 | P@K=1.0 | R@K=1.0
+  full                 | GradientBoosting     | ROC-AUC=1.0 | PR-AUC=1.0 | P@K=1.0 | R@K=1.0
+  no_degree_struct     | ExtraTrees           | ROC-AUC=1.0 | PR-AUC=0.9999999999999999 | P@K=1.0 | R@K=1.0
+  struct_only          | ExtraTrees           | ROC-AUC=0.9999613571373368 | PR-AUC=0.9996626180836707 | P@K=0.9868421052631579 | R@K=0.9868421052631579
+  full                 | ExtraTrees           | ROC-AUC=0.9999613571373368 | PR-AUC=0.9996626180836707 | P@K=0.9868421052631579 | R@K=0.9868421052631579
+  struct_only          | LogisticRegression   | ROC-AUC=0.9998840714120102 | PR-AUC=0.9989559947715566 | P@K=0.9868421052631579 | R@K=0.9868421052631579
+
+Dataset: Bitcoin_OTC
+  struct_only          | LogisticRegression   | ROC-AUC=0.999943982970823 | PR-AUC=0.9995102806335093 | P@K=0.9830508474576272 | R@K=0.9830508474576272
+  full                 | LogisticRegression   | ROC-AUC=0.999943982970823 | PR-AUC=0.9995102806335093 | P@K=0.9830508474576272 | R@K=0.9830508474576272
+  struct_only          | ExtraTrees           | ROC-AUC=0.9998879659416462 | PR-AUC=0.9990037409459999 | P@K=0.9745762711864406 | R@K=0.9745762711864406
+  full                 | ExtraTrees           | ROC-AUC=0.9998879659416462 | PR-AUC=0.9990037409459999 | P@K=0.9745762711864406 | R@K=0.9745762711864406
+  no_degree_struct     | ExtraTrees           | ROC-AUC=0.9998719610761672 | PR-AUC=0.9988510192310367 | P@K=0.9745762711864406 | R@K=0.9745762711864406
+  no_degree_struct     | GradientBoosting     | ROC-AUC=0.9998639586434277 | PR-AUC=0.9987680814931741 | P@K=0.9830508474576272 | R@K=0.9830508474576272
+  no_degree_struct     | RandomForest         | ROC-AUC=0.9998479537779486 | PR-AUC=0.998625325310998 | P@K=0.9745762711864406 | R@K=0.9745762711864406
+  struct_only          | GradientBoosting     | ROC-AUC=0.9998479537779484 | PR-AUC=0.9985460223790268 | P@K=0.9830508474576272 | R@K=0.9830508474576272
+  full                 | GradientBoosting     | ROC-AUC=0.9998479537779484 | PR-AUC=0.9985460223790268 | P@K=0.9830508474576272 | R@K=0.9830508474576272
+  struct_only          | RandomForest         | ROC-AUC=0.999839951345209 | PR-AUC=0.9985768894385025 | P@K=0.9745762711864406 | R@K=0.9745762711864406
+
+Dataset: FraudAmazon
+  full                 | GradientBoosting     | ROC-AUC=0.9873610524834671 | PR-AUC=0.9314357266941603 | P@K=0.875 | R@K=0.875
+  attr_only            | GradientBoosting     | ROC-AUC=0.9861122836639933 | PR-AUC=0.9275257133092724 | P@K=0.8695652173913043 | R@K=0.8695652173913043
+  full                 | RandomForest         | ROC-AUC=0.9772917546081328 | PR-AUC=0.9198109319972573 | P@K=0.8641304347826086 | R@K=0.8641304347826086
+  attr_only            | RandomForest         | ROC-AUC=0.9765161108766005 | PR-AUC=0.9105156045424888 | P@K=0.8641304347826086 | R@K=0.8641304347826086
+  full                 | LogisticRegression   | ROC-AUC=0.9748276347263262 | PR-AUC=0.885389188143909 | P@K=0.842391304347826 | R@K=0.842391304347826
+  attr_only            | LogisticRegression   | ROC-AUC=0.9714753060363022 | PR-AUC=0.8816671062664769 | P@K=0.842391304347826 | R@K=0.842391304347826
+  full                 | ExtraTrees           | ROC-AUC=0.9584318277754327 | PR-AUC=0.8397478900509585 | P@K=0.7119565217391305 | R@K=0.7119565217391305
+  attr_only            | ExtraTrees           | ROC-AUC=0.9559958491627971 | PR-AUC=0.8791983632828395 | P@K=0.8315217391304348 | R@K=0.8315217391304348
+  attr_only            | IsolationForest      | ROC-AUC=0.8373293935556494 | PR-AUC=0.3259883486454483 | P@K=0.3532608695652174 | R@K=0.3532608695652174
+  degree_only          | GradientBoosting     | ROC-AUC=0.815115379203602 | PR-AUC=0.3822110570806079 | P@K=0.45652173913043476 | R@K=0.45652173913043476
+
+Dataset: FraudYelp
+  attr_only            | RandomForest         | ROC-AUC=0.9374299680299426 | PR-AUC=0.783489729640537 | P@K=0.7053846153846154 | R@K=0.7053846153846154
+  full                 | RandomForest         | ROC-AUC=0.9364458653358806 | PR-AUC=0.7748817300997639 | P@K=0.7053846153846154 | R@K=0.7053846153846154
+  full                 | GradientBoosting     | ROC-AUC=0.9013678408514951 | PR-AUC=0.6804005421637387 | P@K=0.6315384615384615 | R@K=0.6315384615384615
+  attr_only            | ExtraTrees           | ROC-AUC=0.9004783324885961 | PR-AUC=0.6794542328542732 | P@K=0.6161538461538462 | R@K=0.6161538461538462
+  full                 | ExtraTrees           | ROC-AUC=0.8997227962103787 | PR-AUC=0.6802149083552093 | P@K=0.6307692307692307 | R@K=0.6307692307692307
+  attr_only            | GradientBoosting     | ROC-AUC=0.8893295547584701 | PR-AUC=0.6676163048346333 | P@K=0.6169230769230769 | R@K=0.6169230769230769
+  full                 | LogisticRegression   | ROC-AUC=0.7842904206791688 | PR-AUC=0.39566956550113136 | P@K=0.41307692307692306 | R@K=0.41307692307692306
+  attr_only            | LogisticRegression   | ROC-AUC=0.7771916059105618 | PR-AUC=0.39654116601317213 | P@K=0.4107692307692308 | R@K=0.4107692307692308
+  full                 | IsolationForest      | ROC-AUC=0.6387435182658194 | PR-AUC=0.2154841467502822 | P@K=0.2623076923076923 | R@K=0.2623076923076923
+  attr_only            | IsolationForest      | ROC-AUC=0.6315938243206363 | PR-AUC=0.26074722440676507 | P@K=0.28 | R@K=0.28
+
+
+Shortcut interpretation:
+----------------------------------------------------------------------------------------------------
+If struct_only or degree_only performs close to full, the benchmark is shortcut-sensitive.
+If full substantially outperforms structural features, attributes or richer interactions matter.
+If Bitcoin pseudo-labels are solved very well by degree/signed features, this confirms that the pseudo-label task is intentionally shortcut-heavy.

@@ -1,0 +1,5 @@
+dataset,best_trivial_ablation,best_trivial_model,best_trivial_roc_auc,best_trivial_pr_auc,best_full_model,best_full_roc_auc,best_full_pr_auc,best_attr_model,best_attr_roc_auc,best_attr_pr_auc,full_minus_trivial_roc_auc,attr_minus_trivial_roc_auc
+Bitcoin_Alpha,no_degree_struct,ExtraTrees,1.0,0.9999999999999999,GradientBoosting,1.0,1.0,ExtraTrees,0.5,0.10039630118890357,0.0,-0.5
+Bitcoin_OTC,struct_only,LogisticRegression,0.999943982970823,0.9995102806335093,LogisticRegression,0.999943982970823,0.9995102806335093,ExtraTrees,0.5,0.10025488530161428,0.0,-0.499943982970823
+FraudAmazon,degree_only,GradientBoosting,0.815115379203602,0.3822110570806079,GradientBoosting,0.9873610524834671,0.9314357266941603,GradientBoosting,0.9861122836639933,0.9275257133092724,0.17224567327986506,0.17099690446039129
+FraudYelp,struct_only,ExtraTrees,0.5799069651838278,0.2177098207794773,RandomForest,0.9364458653358806,0.7748817300997639,RandomForest,0.9374299680299426,0.783489729640537,0.3565389001520528,0.3575230028461148

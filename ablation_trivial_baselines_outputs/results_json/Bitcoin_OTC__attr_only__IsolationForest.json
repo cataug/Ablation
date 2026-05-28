@@ -1,0 +1,43 @@
+{
+  "dataset": "Bitcoin_OTC",
+  "dataset_kind": "bitcoin_signed_graph_pseudo_labels",
+  "dataset_notes": "Pseudo-labels from negative trust statistics; use as diagnostic stress-test, not real fraud ground truth.",
+  "ablation": "attr_only",
+  "model": "IsolationForest",
+  "status": "ok",
+  "n_nodes": 5881,
+  "n_features": 1,
+  "n_train": 4704,
+  "n_test": 1177,
+  "n_anomalies_total": 591,
+  "n_anomalies_train": 473,
+  "n_anomalies_test": 118,
+  "feature_names": [
+    "dummy_no_attr"
+  ],
+  "model_info": {
+    "mode": "unsupervised",
+    "contamination": 0.10055272108843537
+  },
+  "metrics": {
+    "roc_auc": 0.5,
+    "pr_auc": 0.10025488530161428,
+    "k_at_pos": 118,
+    "hits_at_pos": 15,
+    "precision_at_k_at_pos": 0.1271186440677966,
+    "recall_at_k_at_pos": 0.1271186440677966,
+    "hits_at_k_at_pos": 1.0,
+    "k_at_1pct": 11,
+    "hits_at_1pct": 1,
+    "precision_at_k_at_1pct": 0.09090909090909091,
+    "recall_at_k_at_1pct": 0.00847457627118644,
+    "hits_at_k_at_1pct": 1.0,
+    "k_at_5pct": 58,
+    "hits_at_5pct": 8,
+    "precision_at_k_at_5pct": 0.13793103448275862,
+    "recall_at_k_at_5pct": 0.06779661016949153,
+    "hits_at_k_at_5pct": 1.0
+  },
+  "runtime_sec": 0.6435484886169434,
+  "created_at": "2026-05-17 09:22:40"
+}
